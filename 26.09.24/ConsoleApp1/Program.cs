@@ -10,55 +10,51 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Wprowadź dolną granicę zakresu:");
-            string nizszaliczba = Console.ReadLine();
-            if (!int.TryParse(nizszaliczba, out int nizsza))
+            int JeszczeRaz = 1;
+            while (JeszczeRaz == 1)
             {
-                Console.WriteLine("Niepoprawne dane wejściowe. Proszę wprowadzić prawidłową liczbę.");
-                return;
-            }
+                int a = 0;
 
-            Console.WriteLine("Wprowadź górną granicę zakresu:");
-            string wyrzszaliczba = Console.ReadLine();
-            if (!int.TryParse(wyrzszaliczba, out int wyrzsza))
-            {
-                Console.WriteLine("Niepoprawne dane wejściowe. Proszę wprowadzić prawidłową liczbę.");
-                return;
-            }
-
-            if (nizsza >= wyrzsza)
-            {
-                Console.WriteLine("Niepoprawny zakres. Dolna granica musi być mniejsza niż górna granica.");
-                return;
-            }
-
-            Random rnd = new Random();
-            int liczbarnd = rnd.Next(nizsza, wyrzsza + 1);
-            Console.WriteLine("Zgadnij liczbę (pomiędzy " + nizsza + " a " + wyrzsza + "):");
-
-            while (true)
-            {
-                string input = Console.ReadLine();
-                if (!int.TryParse(input, out int zga))
+                Console.WriteLine("Podaj do której liczby ma być zgadywane: ");
+                a = Convert.ToInt32(Console.ReadLine());
+                if (a == 0)
                 {
-                    Console.WriteLine("Proszę wprowadzić prawidłową liczbę.");
-                    continue;
+                    Console.WriteLine("Liczba musi być większa od 0: ");
+                    a = Convert.ToInt32(Console.ReadLine());
                 }
+                else if (a > 0)
+                {
+                    Console.WriteLine("Zgaduj liczbę: ");
 
-                if (zga == liczbarnd)
-                {
-                    Console.WriteLine("Gratulacje! Zgadłeś poprawną liczbę: " + liczbarnd);
-                    break;
-                }
-                else if (zga < liczbarnd)
-                {
-                    Console.WriteLine("Twoja propozycja jest za niska. Spróbuj wyższej liczby.");
-                }
-                else
-                {
-                    Console.WriteLine("Twoja propozycja jest za wysoka. Spróbuj niższej liczby.");
+                    Random r = new Random();
+                    int b = r.Next(a);
+
+                    int liczba = Convert.ToInt32(Console.ReadLine());
+
+                    while (liczba != b)
+                    {
+                        if (liczba > b)
+                        {
+                            Console.WriteLine("Liczba jest za duża próbuj dalej ");
+                            liczba = Convert.ToInt32(Console.ReadLine());
+                        }
+                        else if (liczba < b)
+                        {
+                            Console.WriteLine("Liczba jest za mała próbuj dalej ");
+                            liczba = Convert.ToInt32(Console.ReadLine());
+                        }
+                        if (liczba == b)
+                        {
+                            Console.WriteLine("Brawo Zgadłeś chcesz zagrać ponownie jeśli Tak = 1 a jeśli Nie = 0");
+                        }
+                    }
+                    JeszczeRaz = Convert.ToInt32(Console.ReadLine());
                 }
             }
+
+
+            Console.ReadKey();
+
         }
     }
 }
