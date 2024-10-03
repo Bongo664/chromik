@@ -1,0 +1,7 @@
+C:\Users\Programista\Documents\chromik\03.10.24\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\Programista\Documents\chromik\03.10.24\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\Programista\Documents\chromik\03.10.24\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\Programista\Documents\chromik\03.10.24\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.AssemblyReference.cache
+C:\Users\Programista\Documents\chromik\03.10.24\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\Programista\Documents\chromik\03.10.24\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\Programista\Documents\chromik\03.10.24\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
