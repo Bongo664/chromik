@@ -1,0 +1,17 @@
+C:\Users\1CT\Documents\chromik\10.04.25\bin\Debug\net8.0-windows\10.04.25.exe
+C:\Users\1CT\Documents\chromik\10.04.25\bin\Debug\net8.0-windows\10.04.25.deps.json
+C:\Users\1CT\Documents\chromik\10.04.25\bin\Debug\net8.0-windows\10.04.25.runtimeconfig.json
+C:\Users\1CT\Documents\chromik\10.04.25\bin\Debug\net8.0-windows\10.04.25.dll
+C:\Users\1CT\Documents\chromik\10.04.25\bin\Debug\net8.0-windows\10.04.25.pdb
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\_10._04._25.Form1.resources
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.csproj.GenerateResource.cache
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.AssemblyInfoInputs.cache
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.AssemblyInfo.cs
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.csproj.CoreCompileInputs.cache
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.sourcelink.json
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.dll
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\refint\10.04.25.dll
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.pdb
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\10.04.25.genruntimeconfig.cache
+C:\Users\1CT\Documents\chromik\10.04.25\obj\Debug\net8.0-windows\ref\10.04.25.dll
